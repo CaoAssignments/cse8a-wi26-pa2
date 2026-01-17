@@ -20,7 +20,7 @@ In this programming assignment, you will implement two separate Python functions
 1. **`is_late(minutes_late)`** - Determines if a student is considered late for a lab
 2. **`calculate_final_grade(participation, discussion, midterm, labs, pa, final)`** - Calculates a student's final letter grade
 
-## Part 2. Function 1: `is_late` (50 points)
+## Part 2. Function 1: `is_late` (30 points)
 
 ### Part 2.1 Task Description
 
@@ -73,7 +73,7 @@ False
 ```
 
 
-## Part 3. Function 2: `calculate_final_grade` (50 points)
+## Part 3. Function 2: `calculate_final_grade` (70 points)
 
 ### Part 3.1 Task Description
 

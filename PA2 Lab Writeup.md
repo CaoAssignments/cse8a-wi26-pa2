@@ -268,11 +268,26 @@ Average temperature: 48.33
 Category: Cold
 ```
 
-## Part 5: Handling Invalid Temperatures
+### Reflection Questions
 
-The weather station has a problem: sometimes sensors malfunction and report impossible temperatures (like -200°F or 500°F). Let's make our program more robust!
+Take a moment to think about (you don't need to write these down):
+* Why is it helpful to use functions instead of writing all the code in one place?
+* What would you need to change if the weather station wanted different temperature categories?
+* How would you modify the program to handle four temperature readings instead of three?
+
+## Part 5: Lab Quiz (~15 mins)
+
+Make sure to review the lab activity today! The lab quiz will test material based on what you learned in this lab.
+
+## Challenge Problem: Handling Invalid Temperatures
+
+**Note:** This challenge problem will NOT be on the lab quiz, but completing it will be very helpful for PA2! The PA requires you to handle error cases and return `None`, so this is great practice.
+
+If you've completed all the lab activities and still have time, try this challenge!
 
 ### Task
+
+The weather station has a problem: sometimes sensors malfunction and report impossible temperatures (like -200°F or 500°F). Let's make our program more robust!
 
 Modify your `average_temp` function to check if any of the input temperatures are unrealistic. If any temperature is below -100 or above 150 degrees Fahrenheit, the function should return `None` instead of calculating the average.
 
@@ -328,13 +343,4 @@ Average temperature: 61.67
 Category: Warm
 ```
 
-### Reflection Questions
 
-Take a moment to think about (you don't need to write these down):
-* Why is it helpful to use functions instead of writing all the code in one place?
-* What would you need to change if the weather station wanted different temperature categories?
-* How would you modify the program to handle four temperature readings instead of three?
-
-## Part 6: Lab Quiz (~15 mins)
-
-Make sure to review the lab activity today! The lab quiz will test material based on what you learned in this lab. If you are done with the lab activities, you can work on your PA.
