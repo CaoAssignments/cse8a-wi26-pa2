@@ -190,4 +190,4 @@ This means when we called `is_late(5)`, we expected `True` but your function ret
 
 Don't worry if you don't pass everything on the first try! You can submit multiple times. Use the feedback to debug your code and resubmit.
 
-When you pass all public test cases, you should see 90/100 points. 
+When you pass all public test cases, you should get at least 90/100 points. As a reminder, Gradescope won't displace score until grades are published.
